@@ -53,7 +53,7 @@ $Topic="<a href='?id=3'><strong>Font Tahoma</strong></a>";
     
     <table width="1169" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td>
+    <td> xxxxxxx
 	<? 
 	
 	call_user_func("Greeting",$id); 

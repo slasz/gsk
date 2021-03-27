@@ -1,0 +1,269 @@
+/* Based partially on Matthew Carroll's keyboard accessible flavor of Suckerfish 
+ * Dropdowns by Patrick Griffiths and Dan Webb. 
+ * http://carroll.org.uk/sandbox/suckerfish/bones2.html
+ */
+
+/* ----[ LINKS ]----*/
+
+/* all menu links */
+#nav a,
+#nav2 a,
+#nav3 a,
+#nav4 a {
+	text-decoration:none;
+	display:block;
+	padding:5px 25px 5px 5px;
+	color:#000;
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color:#3399FF ;/*#fff*/
+	/*-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;*/
+	border-bottom:solid 1px #3388FF;
+}
+#subMenusContainer a{
+	text-decoration:none;
+	display:block;
+	padding:7px 25px 7px 10px;
+	color:#000;
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color:#66CCFF ;/*#fff*/
+	/*-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;*/
+	border-bottom:solid 1px #3388FF;
+
+}
+/* Just main menu links --[for non-javascript users this applies to submenu links as well]*/
+#nav a,
+#nav2 a,
+#nav3 a,
+#nav4 a{
+	margin:0;
+}
+/* Just sub menu links */
+#subMenusContainer a, 
+#nav li li a,
+#nav2 li li a,
+#nav3 li li a,
+#nav4 li li a{
+	text-align:left;
+}
+
+/* All menu links on hover or focus */
+#nav a:hover, #nav a:focus,
+#nav2 a:hover, #nav2 a:focus, 
+#nav3 a:hover, #nav3 a:focus,
+#nav4 a:hover, #nav4 a:focus,
+#nav a.mainMenuParentBtnFocused, 
+#nav2 a.mainMenuParentBtnFocused,
+#nav3 a.mainMenuParentBtnFocused,
+#nav4 a.mainMenuParentBtnFocused,
+#subMenusContainer a:hover, #subMenusContainer a:focus, 
+#subMenusContainer a.subMenuParentBtnFocused{
+	background-color:#3399FF ; /*#F6C739*/
+	color:#000;
+	font-weight:normal;
+}
+
+/* sub menu links on hover or focus */
+
+#nav a.mainMenuParentBtnFocused, 
+#nav2 a.mainMenuParentBtnFocused, 
+#nav3 a.mainMenuParentBtnFocused, 
+#nav4 a.mainMenuParentBtnFocused, 
+#nav li a:hover, #nav li a:focus,
+#nav2 li a:hover, #nav2 li a:focus,
+#nav3 li a:hover, #nav3 li a:focus,
+#nav4 li a:hover, #nav4 li a:focus,
+#subMenusContainer a:hover, 
+#subMenusContainer a:focus, 
+#subMenusContainer a.subMenuParentBtnFocused{
+	background-color:#F6C739 ; /*#F6C739*/
+	color:#fff
+}
+
+/* Parent Sub Menu Links ---[javascript users only]*/
+.subMenuParentBtn{ 
+	background: url(../img/arrow_right.gif) right center no-repeat;  
+}
+
+/* Parent Sub Menu Links on hover or focus ---[javascript users only]*/
+.subMenuParentBtnFocused{ 
+	background: url(../img/arrow_right_over.gif) right center no-repeat;  
+}
+
+/* Parent Main Menu Links ---[javascript users only]*/
+.mainMenuParentBtn{	
+	 background: url(../img/arrow_right.gif) right center no-repeat; 
+}
+
+/* Parent Main Menu Links on hover or focus ---[javascript users only]*/
+.mainMenuParentBtnFocused{	
+	background: url(../img/arrow_right_over.gif) right center no-repeat; 
+}
+
+/* ----[ OLs ULs, LIs, and DIVs ]----*/
+
+/* Submenu Outer Wrapper - each submenu is inside a div with this class - javascript users only */
+.smOW{ 
+	display:none; 
+	position: absolute; 
+	overflow:hidden; 
+	/*the 2px left & right padding lets you have a 1px border 
+	  on the ul or ol inside since overflow is set to hidden*/
+	padding:0 2px;
+	margin:0 0 0 -2px;
+}
+
+/* All submenu OLs and ULs */
+#nav ol, #nav ul,
+#nav2 ol, #nav2 ul,
+#nav3 ol, #nav3 ul, 
+#nav4 ol, #nav4 ul, 
+#subMenusContainer ul, #subMenusContainer ol {	
+	/*border around submenu goes here*/
+	/*-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;*/
+	border-left:1px solid #3388FF; 
+	font-size:12px;
+	background:#66CCFF;
+	left:0;
+}
+/* All ULs and OLs */
+#nav, #nav ul, #nav ol, 
+#nav2, #nav2 ul, #nav2 ol, 
+#nav3, #nav3 ul, #nav3 ol, 
+#nav4, #nav4 ul, #nav4 ol, 
+#subMenusContainer ul, #subMenusContainer ol { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1em;	
+}
+
+/* List items in main menu --[for non-javascript users this applies to submenus as well]  */
+#nav li, 
+#nav2 li, 
+#nav3 li, 
+#nav4 li { 
+	/*great place to use a background image as a divider*/
+	display:block;
+	list-style:none;
+	position:relative;
+	background:#3399FF;
+	font-weight:normal;
+}
+#subMenusContainer li{
+	list-style: none;
+	
+}
+
+/* main menu ul or ol elment */
+#nav, 
+#nav2, 
+#nav3, 
+#nav4{
+	/*position: absolute;width:186px;top:60px;left:50%;z-index:5;*/
+	
+	list-style:none;
+	margin:0;
+	text-align: left;	
+}
+#subMenusContainer{	display:block; 	position:absolute;	top:0;	left:0;	width:100%;	height:0;	overflow:visible;	z-index:1000000000; }
+
+
+/* --------------------------[ The below is just for non-javscript users ]--------------------------*/
+#nav li li, 
+#nav2 li li, 
+#nav3 li li, 
+#nav4 li li{
+	float:none; 
+}
+#nav li li a, 
+#nav2 li li a, 
+#nav3 li li a, 
+#nav4 li li a{ /* Just submenu links*/	
+	position:relative;
+	float:none;
+}
+#nav li ul, 
+#nav2 li ul, 
+#nav3 li ul, 
+#nav4 li ul { /* second-level lists */
+	position: absolute;
+	width: 10em;
+	margin-left: -1000em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+/* third-and-above-level lists */
+#nav li ul ul, 
+#nav2 li ul ul, 
+#nav3 li ul ul, 
+#nav4 li ul ul { 
+	margin: -1em 0 0 -1000em; 
+}
+
+#nav li:hover ul ul, 
+#nav2 li:hover ul ul, 
+#nav3 li:hover ul ul, 
+#nav4 li:hover ul ul {	
+	margin-left: -1000em; 
+}
+
+ /* lists nested under hovered list items */
+#nav li:hover ul, 
+#nav2 li:hover ul, 
+#nav3 li:hover ul, 
+#nav4 li:hover ul{	
+	margin-left: 186px; margin-top:-2.5em;
+}
+
+#nav li li:hover ul, 
+#nav2 li li:hover ul, 
+#nav3 li li:hover ul, 
+#nav4 li li:hover ul {	
+	margin-left: 10em; 
+}
+
+/* extra positioning rules for limited noscript keyboard accessibility */
+#nav li a:focus + ul, 
+#nav2 li a:focus + ul, 
+#nav3 li a:focus + ul, 
+#nav4 li a:focus + ul {  
+	margin-left: 186px; margin-top:-2.5em; 
+}
+
+#nav li li a:focus + ul, 
+#nav2 li li a:focus + ul, 
+#nav3 li li a:focus + ul, 
+#nav4 li li a:focus + ul { 
+	left:186px; margin-left: 1010em; margin-top:-2.5em;
+}
+
+#nav li li a:focus, 
+#nav2 li li a:focus, 
+#nav3 li li a:focus, 
+#nav4 li li a:focus {
+	left:186px;  margin-left:1000em; width:10em;  margin-top:-2.5em;
+}
+
+#nav li li li a:focus, 
+#nav2 li li li a:focus, 
+#nav3 li li li a:focus, 
+#nav4 li li li a:focus {
+	left:186px; margin-left: 2010em; width: 10em;  margin-top:-2.5em;
+}
+
+#nav li:hover a:focus, 
+#nav2 li:hover a:focus, 
+#nav3 li:hover a:focus, 
+#nav4 li:hover a:focus{ 
+	margin-left: 0; 
+}
+
+#nav li li:hover a:focus + ul, 
+#nav2 li li:hover a:focus + ul, 
+#nav3 li li:hover a:focus + ul, 
+#nav4 li li:hover a:focus + ul { 
+	margin-left: 10em; 
+}

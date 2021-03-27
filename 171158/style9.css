@@ -1,0 +1,1221 @@
+@charset "utf-8";
+/*
+Theme Name: GSK global network
+Theme URI: www.firmwarenet.com
+Description: GSK global network
+Version: 1.0
+Author: Studio33
+Author URI: www.firmwarenet.com
+Tags: simple
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+
+*{
+	margin:0;padding:0;
+}
+
+// .bodybg_toppage { background : url(images/ref/ref1.jpg) no-repeat 344px 1px; }
+
+body{
+	font: 14px arial,"���C���I","Meiryo","�q���M�m�p�S Pro W3","Hiragino Kaku Gothic Pro",Osaka,"�l�r �o�S�V�b�N","MS PGothic",Sans-Serif;
+color:#383838;
+}
+
+a{
+	color:#006898;text-decoration:none;
+}
+a:hover{
+	color:#2cafe3;
+}
+a:active, a:focus{
+	outline: 0;
+}
+img{
+	border:0;
+}
+.clear{
+	clear:both;
+}
+
+.cf:before{
+	content : "";
+display : table;
+}
+
+.cf:after{
+	content : "";
+display : table;
+clear : both;
+}
+
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf{
+	zoom:1;
+}
+
+.last{
+	margin-right : 0!important;
+}
+.mb_0{
+	margin-bottom : 0!important;
+}
+
+#sales_turnover{
+	margin-top : 65px!important;
+}
+#milestones{
+	margin-top : 65px!important; text-align : center;
+}
+#milestones h3{
+	font-size : 36px; font-style : italic; font-weight : normal;
+}
+
+/*************
+�S��
+*************/
+#wrapper{
+	margin: 0 auto;
+//padding: 0 20px;
+width: 100%;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/stripe_bg_2D70AB.jpg") 0px 0px / auto auto repeat-x scroll padding-box border-box transparent;
+}
+
+/*************
+/* �w�b�_�[
+*************/
+#header{
+	//background: url(images/header.png) no-repeat 100% 0;
+//height: 80px;
+width : 100%;
+}
+
+/*
+#top_blue_stripe {
+background-color : #2D70AB;
+height : 3px;
+width : 100%;
+display : block;
+}
+*/
+
+#header_content_center{
+	width : 960px;
+margin : 0 auto;
+//background-color : #ffffff;
+}
+
+#logo_subnavi{
+	height : 81px;
+}
+
+h1#header_logo{
+	width : 232px;
+height : 65px;
+float : left;
+margin-left : 2px;
+margin-top : 10px;
+}
+
+#header_top_subnavi{
+	float : right;
+//width : 282px;
+height : 28px;
+margin-right : 6px;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/top_sub_navi_bg.png") 0px 0px / auto auto no-repeat scroll padding-box border-box transparent;
+}
+
+#header_top_subnavi ul{
+	list-style : none;
+}
+#header_top_subnavi ul li{
+	float : left; width : 100%; font-size : 90%;
+}
+#header_top_subnavi ul li a{
+	float : left; color : #ffffff; text-align : center; margin : 6px auto 0 auto; width : 100%;   font-weight : bold;
+}
+
+#header_top_contact{
+	 
+    background : url("file:///D:/my document/hpb-rem/gsknew/images/top_sub_navi_contact.png") 0px 0px / auto auto repeat scroll padding-box border-box transparent;
+    display: block;
+    float: right;
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 65px;
+    padding-top: 10px;
+    width: 123px; 
+}
+#header_top_contact a{
+	color : #ffffff;  
+font-weight : bold;
+}
+
+.top_image_bg{
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/top_image_bg.jpg") 0px 0px / auto auto repeat-x scroll padding-box border-box transparent;
+}
+
+#container{
+	position : relative;
+z-index : 1;
+width : 100%;
+margin-top : 20px;
+}
+
+#container_inner_center{
+	width : 960px;
+margin : 0 auto;
+}
+
+#toppage_map{
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/map/map.png") 3px 10px / auto auto no-repeat scroll padding-box border-box transparent;
+display : block;
+width : 960px;
+height : 412px;
+position : relative;
+}
+
+#map{
+	float : left;
+position : absolute;
+border : 1px solid #000000;
+}
+
+#map ul{
+	list-style : none;
+}
+
+#map ul li{
+	float : left;
+position : absolute;
+}
+
+.jp{
+	top : 53px; left : 465px;
+}
+.cn{
+	top : 58px; left : 135px;
+}
+.th{
+	top : 169px; left : 52px;
+}
+.id{
+	top : 374px; left : 72px;
+}
+.my{
+	top : 302px; left : 38px;
+}
+.sg{
+	top : 319px; left : 247px;
+}
+.hk{
+	top : 176px; left : 315px;
+}
+.vn{
+	top : 220px; left : 80px;
+}
+
+.rp{
+	z-index : 9;
+}
+
+#rp-0{
+	top : 32px; left : 5px; float : left; position : absolute;
+}
+#rp-1{
+	top : 55px; left : 213px; float : left; position : absolute;
+}
+#rp-2{
+	top : 64px; left : 177px; float : left; position : absolute;
+}
+#rp-3{
+	top : 4px; left : 207px; float : left; position : absolute;
+}
+#rp-4{
+	top : 4px; left : 202px; float : left; position : absolute;
+}
+#rp-5{
+	top : 4px; left : 6px; float : left; position : absolute;
+}
+#rp-6{
+	top : 5px; left : 6px; float : left; position : absolute;
+}
+#rp-7{
+	top : 38px; left : 181px; float : left; position : absolute;
+}
+
+#flag-jp{
+	top : 3px; left : 55px; float : left; position : absolute;
+}
+#flag-cn{
+	top : 72px; left : 0px; float : left; position : absolute;
+}
+#flag-th{
+	top : 30px; left : 11px; float : left; position : absolute;
+}
+#flag-id{
+	top : 2px; left : 1px; float : left; position : absolute;
+}
+#flag-my{
+	top : 9px; left : 0px; float : left; position : absolute;
+}
+#flag-sg{
+	top : 5px; left : 222px; float : left; position : absolute;
+}
+#flag-hk{
+	top : 4px; left : 116px; float : left; position : absolute;
+}
+#flag-vn{
+	top : 48px; left : 360px; float : left; position : absolute;
+}
+
+#rpw-jp{
+	top : 0px; left : -30px; float : left; position : absolute;
+}
+#rpw-cn{
+	top : 22px; left : 178px; float : left; position : absolute;
+}
+#rpw-th{
+	top : 32px; left : 142px; float : left; position : absolute;
+}
+#rpw-id{
+	top : -28px; left : 172px; float : left; position : absolute;
+}
+#rpw-my{
+	top : -29px; left : 167px; float : left; position : absolute;
+}
+#rpw-sg{
+	top : -28px; left : -29px; float : left; position : absolute;
+}
+#rpw-hk{
+	top : -27px; left : -29px; float : left; position : absolute;
+}
+#rpw-vn{
+	top : 5px; left : 146px; float : left; position : absolute;
+}
+
+.rpw{
+	margin : auto; z-index : 8;
+}
+.rpw_wrapper{
+	position : relative; width : 80px; height : 80px; text-align : center; vertical-align: middle; display: table-cell;
+}
+.rpw_wrapper *{
+	vertical-align: middle;
+}
+.rpw_wrapper{
+	display: block;
+}
+.rpw_wrapper span{
+	display: inline-block;
+height: 100%;
+width: 1px;
+}
+
+<!--[if lt IE 8]>
+.rpw_wrapper span {
+display: inline-block;
+height: 100%;
+}
+<![endif]-->
+
+.rpw_wrapper img.rpw { width : 40px; height : 40px; position : absolute; top : 0; bottom : 0; margin : auto; display: table-cell; vertical-align: middle; }
+
+#gsk_slogan{
+	position : absolute;
+left : 648px;
+top : 55px;
+float : left;
+}
+
+/*
+#branch_preview {
+float : left;
+position : absolute;
+top : 80px;
+left : 718px;
+width : 236px;
+height : 236px;
+}
+*/
+
+a#branch_preview{
+	float : left;
+position : absolute;
+top : 120px;
+left : 685px;
+width : 228px;
+height : 230px;
+text-indent : -9999px;
+display : block;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/branch_navi_bg.png") 0px -230px / auto auto no-repeat scroll padding-box border-box transparent;
+}
+
+a#branch_preview h2{
+	//width : 228px;
+//height : 230px;
+display : none;
+}
+
+img#branch_img_frame{
+	position : absolute; float : left; z-index : 5;
+}
+img#branch_img{
+	position : absolute; float : left; width : 220px; height : 180px; top : 3px; left : 3px;  z-index : 4;
+}
+
+div#branch_desc{
+	position : absolute;
+float : left;
+width : 220px;
+height : 40px;
+margin : 0 auto;
+z-index : 6;
+overflow : auto;
+top : 194px;
+left : 8px;
+color : #ffffff;
+font-weight : bold;
+font-size : 14px;
+line-height : 18px;
+}
+
+#point_lines{
+	position : absolute;
+top : 95px;
+left : 106px;
+float : left;
+z-index : 10;
+width : 500px;
+height : 300px;
+}
+
+#bottom_navi_product{
+	width : 100%;
+height : 180px;
+margin : 2px auto 97px auto;
+}
+
+#bottom_navi_product ul{
+	width : 704px;
+margin : 0 auto;
+list-style : none;
+}
+
+#bottom_navi_product ul li{
+	float : left;
+width : 228px;
+height : 180px;
+margin-right : 10px;
+}
+
+/*************
+/* �g�b�v�i�r�Q�[�V����
+*************/
+#topnav{
+	width: 100%;
+height: 40px;
+float : left;
+position : relative;
+z-index : 99;
+} 
+
+#topnav ul.lv1{
+	width : 960px;
+height : 40px;
+margin : 0 auto;
+list-style : none;
+}
+
+#topnav ul.lv1 li{
+	position : relative;
+float: left;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/navi_menu.png") 0% 0% / auto auto no-repeat scroll padding-box border-box transparent;
+z-index : 99;
+}
+
+#topnav ul.lv1 li a{
+	text-indent : 100%;
+white-space : nowrap;
+overflow : hidden;
+display : block;
+color : #ffffff;
+height : 40px; 
+}
+
+#topnav ul.lv1 li.menu_abu ul.lv2{
+	position : absolute;
+display : none;
+float : left;
+//width : 100%;
+width : 228px;
+height : 81px;
+list-style : none;
+}
+
+#topnav ul.lv1 li.menu_abu:hover ul.lv2{
+	display : block;
+}
+
+#topnav ul.lv1 li.menu_abu ul.lv2 li{
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/topnav_subnav.png") 0% 0% / auto auto no-repeat scroll padding-box border-box transparent;
+z-index : 100;
+}
+
+#topnav ul.lv1 li.menu_abu ul.lv2 li a{
+	width : 228px;
+height : 27px;
+display : block;
+text-indent : 100%;
+white-space : nowrap;
+overflow : hidden;
+}
+
+#topnav ul.lv1 li a h2{
+	height : 40px;
+}
+
+// #topnav ul.lv1 li a:hover { color: #ffd800; }
+
+.menu_abu{
+	background-position : 0 0!important; width : 143px;
+}
+.menu_abu h2{
+	display : block; text-indent : 100%; white-space : nowrap; overflow : hidden; height : 40px;
+}
+.menu_abu:hover{
+	background-position : 0 -40px!important; width : 143px;
+}
+	.menu_abu_gfp{
+	background-position : 0 0!important;
+}
+	.menu_abu_mst{
+	background-position : 0 -27px!important;
+}
+	.menu_abu_sto{
+	background-position : 0 -54px!important;
+}
+	.menu_abu_gfp:hover{
+	background-position : -228px 0!important;
+}
+	.menu_abu_mst:hover{
+	background-position : -228px -27px!important;
+}
+	.menu_abu_sto:hover{
+	background-position : -228px -54px!important;
+}
+
+.menu_elec{
+	background-position : -143px 0!important; width : 247px;
+}
+.menu_elec:hover{
+	background-position : -143px -40px!important; width : 247px;
+}
+
+.menu_ipo{
+	background-position : -390px 0!important; width : 173px;
+}
+.menu_ipo:hover{
+	background-position : -390px -40px!important; width : 173px;
+}
+
+.menu_copi{
+	background-position : -563px 0!important; width : 207px;
+}
+.menu_copi:hover{
+	background-position : -563px -40px!important; width : 207px;
+}
+
+// .menu_data { background-position : -512px 0!important; width : 274px; }
+// .menu_data:hover { background-position : -512px -40px!important; width : 274px; }
+
+.menu_sale{
+	background-position : -770px 0!important; width : 190px;
+}
+.menu_sale:hover{
+	background-position : -770px -40px!important; width : 190px;
+}
+
+/*************
+���C���i�E���j�R���e���c
+*************/
+#main{
+	float : left;
+margin : 0 auto;
+width : 960px;
+padding: 0;
+display: block;
+min-height : 700px;
+}
+
+h2#subpage_top_title_image{
+	margin : 10px auto 30px auto;
+padding: 0;
+width : 960px;
+height : 120px;
+line-height: 40px;
+font-size: 15px;
+font-weight: normal;
+color: #333333;
+text-align : center;
+}
+
+#main h3 {
+/*
+font-size: 14px;
+line-height: 30px;
+background: url(images/h3.png) no-repeat;
+padding-left: 15px;
+padding-bottom: 10px;
+margin-top: 20px;
+letter-spacing: 0.2em;
+color: #333333;
+*/
+}
+
+// #main p { padding: 15px 15px 20px 20px; }
+
+/* �摜��E�ɉ�肱�� */
+
+#date{
+	text-align: right;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: 10px;
+font-weight:bold;
+color:#006898;
+}
+
+#next{
+	text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+img.aligncenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignright{
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+}
+img.alignleft{
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+}
+.alignright{
+    float: right;
+}
+.alignleft{
+    float: left;
+}
+
+
+/* �t�b�^�[���� */
+.box{
+	float: left;
+width: 195px;
+margin: 20px 16px 10px 0;
+line-height: 1.2;
+}
+
+
+.last{
+	margin-right:0;
+}
+
+
+/* �{�^�� */
+p.button{
+	text-align: center;
+font-weight:bold;
+padding: 10px 0;
+}
+
+p.button a{
+	display:block;
+line-height: 32px;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/button.png") 0% 0% / auto auto no-repeat scroll padding-box border-box #ffffff;
+margin: 0 -20px;
+}
+
+p.button a{
+	color:#fff;
+}
+p.button a:hover{
+	color:#d9e8ff;
+}
+
+p.button a:hover{
+	cursor:pointer;
+background-position: 0 -32px;
+}
+
+/* ���C���ƃt�b�^�[�̃��X�g�ʒu���� */
+// #main ul, #footer ul{margin-left: 20px;}
+// #main li, #footer li{margin-bottom: 3px;}
+
+
+/*************
+�T�C�h�i�����j�R���e���c
+*************/
+#sidebar{
+	float: left;
+width: 265px;
+padding: 15px 0;
+}
+
+#sidebar p{
+	margin-bottom: 20px;
+}
+
+#sidebar h3{
+	margin-top: 5px;
+padding: 0 10px 0 33px;
+line-height: 40px;
+font-size: 15px;
+font-weight: normal;
+color: #1196c2;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/heading2.png") 0% 0% / auto auto no-repeat scroll padding-box border-box #0b82be;
+}
+
+#sidebar ul{
+	margin-left: 5px;
+padding: 10px 0;
+}
+
+#sidebar li{
+	margin: 0 10px 10px 5px;
+list-style: none;
+border-bottom: 1px dashed #0778cc;
+}
+
+#sidebar li a{
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/list.png") 0px 50% / auto auto no-repeat scroll padding-box border-box transparent;
+display: block;
+padding-left:15px;
+}
+
+#sidebar li a:hover{
+	background-position: 3px 50%;
+}
+
+
+
+
+/*************
+/* �t�b�^�[
+*************/
+#footer{
+	//padding: 10px 0 10px;
+width : 100%;
+height : 44px;
+background-color : #2D70AB;
+}
+
+#footer .inner{
+	overflow: hidden;
+}
+
+* html #footer .inner{
+	height:1%;
+}
+
+#footer #logo{
+	float:left;
+padding: 10px 0 5px;
+width: 292px;
+}
+
+address{
+	padding: 17px 0 3px 8px;
+font-style:normal;
+font-size: 86%;
+clear:both;
+display:block;
+color : #ffffff;
+width : 960px;
+margin : 0 auto;
+letter-spacing : 0px;
+}
+
+address a{
+	color : #ffffff;
+}
+address a:hover{
+	color : #fff800;
+}
+
+
+#crumb_bread{
+	width : 948px;
+margin : 15px auto 0px auto;
+font-size : 86%;
+color:#686868;
+font-weight : bold;
+}
+
+#crumb_bread a{
+	color : #2D70AB; text-decoration:none;
+}
+#crumb_bread a:hover{
+	color : #2D70AB; text-decoration:none;
+}
+#crumb_bread a:visit{
+	text-decoration:none;
+}
+
+.page_contents{
+	width : 960x;
+height : auto;
+margin-bottom:50px;
+}
+
+.subpage_aboutus{
+	min-height : 685px;
+}
+
+#president_image{
+	width : 250px;
+height : 313px;
+float : left;
+text-align:center;
+font-size:86%;
+}
+
+.president_word{
+	width : 685px;
+float : left;
+margin-left : 25px;
+}
+
+.president_word p{
+	padding : 0px!important;
+font-size: 95%;
+line-height:1.6em;
+}
+
+/******** BRANCH TOPNAVI **************/
+ul.branch_topnavibg{
+	width: 700px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+ul.branch_topnavibg li{
+	width: 700px;
+	height: 120px;
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/top_title_image/title_branch_navi.png") 0px 0px / auto auto no-repeat scroll padding-box border-box transparent;
+	position: relative;
+}
+ul.branch_topnavibg li a{
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    z-index: 99;
+    display: block;
+    height:120px;
+}
+.branch00{
+	background-position: 0px 0px !important; width: 700px;
+}
+
+
+ul.branch_topnavi{
+	height: 60px;
+	list-style: none;
+	position: relative;
+	float: left;
+}
+
+ul.branch_topnavi li{
+	float: left;
+	position: relative;
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/top_title_image/title_branch_navi.png") 0px 0px / auto auto no-repeat scroll padding-box border-box transparent;
+}
+
+ul.branch_topnavi li a{
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    z-index: 99;
+    display: block;
+    height: 60px;
+}
+
+
+.branch01{
+	background-position: -700px 0px !important; width: 60px;
+}
+.branch02{
+	background-position: -760px 0px !important; width: 60px;
+}
+.branch03{
+	background-position: -820px 0px !important; width: 60px;
+}
+.branch04{
+	background-position: -880px 0px !important; width: 80px;
+}
+.branch05{
+	background-position: -700px -60px !important; width: 60px;
+}
+.branch06{
+	background-position: -760px -60px !important; width: 60px;
+}
+.branch07{
+	background-position: -820px -60px !important; width: 60px;
+}
+.branch08{
+	background-position: -880px -60px !important; width: 80px;
+}
+
+#branch_navi{
+	width : 100%;
+margin : 0 0 30px 0;
+}
+
+#branch_navi ul{
+	width : 960px;
+list-style : none;
+margin : 0 auto!important;
+}
+
+#branch_navi ul li{
+	float : left;
+margin-bottom : 18px;
+margin-right : 6px;
+}
+
+#branch_navi ul li a{
+	display : block;
+text-indent : 100%;
+white-space : nowrap;
+overflow : hidden;
+height : 230px;
+width : 228px;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/branch_navi_bg.png") 0px 0px / auto auto no-repeat scroll padding-box border-box transparent;
+}
+
+.branch_jp{
+	background-position : 0 0!important;
+}
+.branch_jp:hover{
+	background-position : 0 -230px!important;
+}
+.branch_cn{
+	background-position : -228px 0!important;
+}
+.branch_cn:hover{
+	background-position : -228px -230px!important;
+}
+.branch_th{
+	background-position : -456px 0!important;
+}
+.branch_th:hover{
+	background-position : -456px -230px!important;
+}
+.branch_id{
+	background-position : -684px 0!important;
+}
+.branch_id:hover{
+	background-position : -684px -230px!important;
+}
+.branch_my{
+	background-position : -912px 0!important;
+}
+.branch_my:hover{
+	background-position : -912px -230px!important;
+}
+.branch_sg{
+	background-position : -1140px 0!important;
+}
+.branch_sg:hover{
+	background-position : -1140px -230px!important;
+}
+.branch_hk{
+	background-position : -1368px 0!important;
+}
+.branch_hk:hover{
+	background-position : -1368px -230px!important;
+}
+.branch_vn{
+	background-position : -1596px 0!important;
+}
+.branch_vn:hover{
+	background-position : -1596px -230px!important;
+}
+
+
+#subpage_branch_title{
+	display : block;
+padding : 8px 12px;
+background : url("file:///D:/my document/hpb-rem/gsknew/images/branch_title_bg.jpg") 0px 0px / auto auto repeat-x scroll padding-box border-box transparent;
+color : #ffffff;
+font-size : 110%;
+font-weight : bold;
+}
+
+.page_contents h3.subpage_title{
+	font-size : 160%;
+font-weight : bold;
+color : #074C87;
+margin-bottom : 18px;
+letter-spacing : -0.02em;
+line-height:1.6em;
+}
+
+#branch_info{
+	width: 945px;
+margin : 0 10px;
+margin-top : 22px;
+margin-bottom: 20px;
+}
+
+#branch_img{
+	border : 1px solid #dcdcdc;
+padding : 4px;
+width : 213px;
+max-width : 213px;
+float : left;
+}
+
+#branch_info_table{
+	float : left;
+width: 690px;
+margin-left : 30px;
+}
+.branch_info_table960 table{
+	width: 940px;
+}
+.branch_info_table960, #branch_info_table table{
+	border-collapse : collapse;
+}
+
+.branch_info_table960 td, #branch_info_table table td{
+	border-bottom : 1px solid #dcdcdc;
+padding : 6px 0;
+}
+
+.binf_col1{
+	font-weight : bold;
+width : 160px;
+vertical-align : text-top;
+font-size : 90%;
+}
+
+.binf_col2{
+	font-size : 90%;
+font-weight : normal;
+vertical-align : text-top;
+line-height:1.6em;
+}
+
+
+ul#branch_staff_list{
+	margin-top : 36px;
+margin-bottom : 40px;
+list-style : none;
+}
+
+/* ul li - contain a division (1 or more persons) */
+ul#branch_staff_list li{
+	float : left;
+height : 234px;
+margin-bottom : 36px;
+margin-right : 20px;
+}
+
+ul#branch_staff_list li div.division_name{
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/staff_division_title_bg.jpg") 0px 0px / auto auto no-repeat scroll padding-box border-box transparent;
+float : left;
+height : 25px;
+display : block;
+width : 100%;
+padding : 3px 0 5px 0;
+position : relative;
+}
+
+ul#branch_staff_list li div.division_name h3{
+	position : relative;
+font-size : 14px;
+font-weight : bold;
+color : #333333;
+left : 12px;
+top : 2px;
+display : inline;
+}
+
+ul#branch_staff_list li ul{
+	float : left;
+height : 200px;
+// margin-top : 8px;
+list-style : none;
+}
+
+/* li - contain a staff */
+ul#branch_staff_list li ul.div_staff_list li{
+	float : left;
+width : 176px;
+height : 200px;
+margin-right : 20px;
+}
+
+ul#branch_staff_list li ul.div_staff_list li p{
+	color: #2578C4;
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+}
+
+.subpage_divis_info{
+	width : 100%;
+}
+
+.subpage_divis_table{
+	width : 325px;
+float : left;
+}
+
+.subpage_divis_table table{
+	border-collapse : collapse;
+}
+
+.subpage_divis_table table td{
+	border : 1px solid #CCCCCC;
+}
+
+.subpage_divis_table table td.col-1{
+	//background-color : #E1F0F5;
+font-weight : bold;
+font-size : 86%;
+padding : 8px 4px 8px 8px;
+width : 122px;
+}
+
+.subpage_divis_table table td.col-2{
+	background-color : #FFFFFF;
+font-size : 12px;
+padding : 8px 3px 8px 5px;
+width : 180px;
+}
+
+.subpage_divis_desc{
+	width : 615px;
+float : left;
+margin-left : 20px;
+font-size : 90%;
+line-height : 1.6em;
+}
+
+/* products */
+
+.img01{
+	width:184px;
+	margin-right:10px;
+	margin-top:30px;
+	display: inline;
+
+} 
+.img01 img{
+	border:1px solid #ccc;
+}
+.last{
+	margin-right:0;
+}
+
+#productbox{
+	width: 960px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 190px;
+	white-space: nowrap;
+	margin: 50px 0;
+}
+
+/* IPO DIVISION */
+span.ipo{
+	color: #074C87;
+    	font-size: 15px;
+    	font-weight: bold;
+    	letter-spacing: -0.02em;
+    	margin-bottom: 18px;
+	
+}
+p.ipodivision{
+	padding:0 10px;
+	line-height: 27px;
+}
+
+.ipodivision h3{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	padding: 3px 0 0 20px;
+	background : url("file:///D:/my document/hpb-rem/gsknew/images/staff_division_title_bg.jpg") 0px 0px / auto auto no-repeat scroll padding-box border-box transparent;
+}
+
+.ipodivision table{
+	width: 460px;
+	border: 1px solid #ccc;
+	margin: 0 10px 30px 10px;
+	float: left;
+}
+.ipodivision table th{
+	background: #E1F0F5; font-size: 85%;
+}
+.ipodivision table td{
+	font-size: 80%;
+}
+
+ul#copierbox li{
+	border: 1px #ccc solid;
+	width: 226px;
+	margin-right: 16px;
+	float: left;
+	height: 170px;
+	list-style: none;
+	margin-top:30px;
+}
+table#sales th, table#sales td, .ipodivision table th, .ipodivision table td{
+	padding: 5px;
+}
+table#sales th{
+	background: #E1F0F5;
+}
+
+table#sales{
+	width: 800px;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 85%;
+
+}
+tr.fa{
+	background: #fafafa;
+}
+
+
+#fade_mask{
+	position : absolute;
+float : left;
+z-index : 9999;
+width : 960px;
+height : 160px;
+}
+
+.gsk_branch_map{
+	//height : 430px;
+margin-left : 265px;
+margin-bottom : 35px;
+}
+
+.gsk_branch_map iframe{
+	width : 690px;
+height : 400px;
+}

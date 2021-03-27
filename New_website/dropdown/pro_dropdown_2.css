@@ -1,0 +1,105 @@
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/pro_drop_2.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.preload1 {
+	font-family:Arial, MingLiU, PMingLiU;
+	font-size: 18px;
+	color:#FFFFFF;
+}
+.preload1 a {
+	font-family:Arial, MingLiU, PMingLiU;
+	font-size: 18px;
+	color:#FFFFFF;
+	text-decoration:none;
+	
+}
+
+.preload2 {
+	font-family:Arial, MingLiU, PMingLiU;
+	font-size: 14px;
+	color:#000;
+}
+.preload2 a {
+	font-family:Arial, MingLiU, PMingLiU;
+	font-size: 14px;
+	color:#000;
+	text-decoration:none;
+}
+
+#nav {
+padding:0;  
+margin:0 0 0 0px; 
+list-style:none; 
+top:3px; 
+left:0;
+
+position:relative; z-index:9995; text-align:center; width:1169px; border:0px #F4F4F4 solid; 
+ }
+#nav li.top  {display:block; margin:0px 0px; float:left;text-align:center;border:0px #F4F4F4 solid; padding:18px 0px; text-align:center; }
+#nav li a.top_link {display:block; float:left;  text-decoration:none;   padding:0 0 0 0px; cursor:pointer; font-weight:bold; text-align:center;}
+#nav li a.top_link span {float:left; display:block; padding:0px 25px;  right top no-repeat; text-align:center;}
+#nav li a.top_link span.down {float:left; display:block; padding:0px 25px;   right top; text-align:center;}
+
+#nav li:hover a.top_link { }
+#nav li:hover a.top_link span {}
+#nav li:hover a.top_link span.down {}
+
+/* Default list styling */
+
+#nav li:hover {position:relative; z-index:200; }
+
+#nav li:hover ul.sub
+{left:0px; top:61px; background:#EEEEEE; Opacity:0.9;   padding:0 5px; white-space:nowrap; width:220px; height:auto; z-index:300;}
+#nav li:hover ul.sub li
+{display:block; height:30px; position:relative; float:left; width:220px; border-top:#FFFFFF 2px dashed; }
+#nav li:hover ul.sub li a
+{display:block; text-align:left; height:26px;  line-height:30px; text-decoration:none;}
+#nav li ul.sub li a.fly
+{
+	background-image: url(arrow_over.gif);
+	background-repeat: no-repeat;
+	background-position: 190px 10px;
+	
+}
+#nav li:hover ul.sub li a
+{  font-weight:normal; }
+
+#nav li:hover ul.sub li a:hover 
+{ background:#FFFFFF;  Opacity:0.7; height:26px;line-height:30px; font-weight:bold;}
+#nav li:hover ul.sub li a.fly:hover
+
+{background:#fd90b9 url(arrow_over.gif) 190px 10px no-repeat; }
+
+
+#nav li:hover li:hover ul,
+#nav li:hover li:hover li:hover ul,
+#nav li:hover li:hover li:hover li:hover ul,
+#nav li:hover li:hover li:hover li:hover li:hover ul
+{left:204px; top:0px; background: #262626; padding:10px;  white-space:nowrap; width:206px; z-index:400; height:auto;}
+
+#nav ul, 
+#nav li:hover ul ul,
+#nav li:hover li:hover ul ul,
+#nav li:hover li:hover li:hover ul ul,
+#nav li:hover li:hover li:hover li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0;  padding:0; list-style:none;}
+
+#nav li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover li:hover li:hover a.fly
+{background:#fd90b9 url(arrow_over.gif) 190px 10px no-repeat;  border-color:#fff;} 
+
+#nav li:hover li:hover li a.fly,
+#nav li:hover li:hover li:hover li a.fly,
+#nav li:hover li:hover li:hover li:hover li a.fly
+{background:#262626 url(arrow_over.gif) 190px 10px no-repeat;  border-color:#fff;} 
+/*{background:#bbd37e url(arrow.gif) 148px 10px no-repeat; color:#000; border-color:#bbd37e;} */

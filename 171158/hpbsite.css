@@ -1,0 +1,86 @@
+BODY{
+  color : black;
+  
+  text-align : center;
+  background-color : #b5fdd3;
+}
+H1{
+  color : white;
+  text-align : center;
+  border-left-color: #996666;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width : 0px;
+  background-color : #004080;
+}
+H2{
+  color : #004080;
+  text-align : center;
+  border-left-color: #996666;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width : 0px;
+}
+H3{
+  color : #004080;
+  text-align : center;
+  border-left-color: #996666;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width : 0px;
+}
+HR{
+  color : #004080;
+  height: 3px;
+}
+P{
+  color : black;
+}
+A{
+  color : red;
+  text-decoration : none;
+}
+A:VISITED{
+  color: #FF9999;
+  text-decoration : none;
+}
+A:HOVER{
+  color: #FF3333;
+  text-decoration : underline;
+}
+A:ACTIVE{
+  color: #FF0000;
+  text-decoration : none;
+}
+UL{
+  color : black;
+  list-style-image : url(l_a01.gif);
+  list-style-position: outside;
+}
+TH{
+  color : white;
+  background-color : green;
+}
+TD{
+  color : black;
+  background-color : white;
+}

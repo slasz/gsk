@@ -2,8 +2,12 @@
 
 error_reporting(E_ALL &~E_WARNING &~E_NOTICE);
 
+/*
 $host="wh-db51.csloxinfo.com";
 $hostname="wh-db51.csloxinfo.com";
+*/
+$host="127.0.0.1";
+$hostname="127.0.0.1";
 
 /*$dbname="gsk_db";
 $user="root";
@@ -13,10 +17,15 @@ $pass="1234";*/
 $pass="jh9xw6K3";
 $dbname="LA01992971-62ssib";*/
 
+/*
 $user="gskcomsg";
 $pass="hgIC#P!gR12i";
 $dbname="gskcomsgdb";
+*/
 
+$user="root";
+$pass="gsk123";
+$dbname="gskcomsgdb";
 
 
 $connection = mysql_pconnect($hostname, $user, $pass) or trigger_error(mysql_error(),E_USER_ERROR); 

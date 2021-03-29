@@ -121,20 +121,20 @@ if(sizeof($sorter)>0){
 		
 
 		if(!empty($buttonSave) && $buttonSave=="Save" && !empty($postclips)){
-
-			$qry1=mysql_query("insert into clipvdo (clips,showindex,nameclip,sorter)  values('".$cliped."','".$postclipshow."','".$nameclip."','9999')");
+			// Pinit Modify	
+			$qry1=mysql_query("insert into clipvdo (clips,showindex,nameclip,sorter,updated_at)  values('".$cliped."','".$postclipshow."','".$nameclip."','9999',now())");
 
 			echo "<script>location='?p=clip/index';</script>";
 
 		}else if(!empty($buttonSave) && $buttonSave=="Edit" && !empty($postclips)){
-
-			$qry1=mysql_query("update clipvdo set clips='".$cliped."',showindex='".$postclipshow."',nameclip='".$nameclip."' where id=".$postclipid);
+			// Pinit Modify	
+			$qry1=mysql_query("update clipvdo set clips='".$cliped."',showindex='".$postclipshow."',nameclip='".$nameclip."',updated_at=now() where id=".$postclipid);
 
 			echo "<script>location='?p=clip/index';</script>";
 
 		}else{
-
-$sqltxt="select id,clips,showindex,nameclip,sorter from clipvdo where id>0";
+// Pinit Modify
+$sqltxt="select id,clips,showindex,nameclip,sorter from clipvdo where id>0 order by updated_at desc";
 
 //$sqltxt.=(!empty($getcate))? " and cate='".$getcate."' ":"";
 

@@ -118,8 +118,8 @@ echo"<table  cellspacing='0' border='0' align='left' style='margin:5px 5px 5px 5
 $a=0;
 
 
-			
-				   $sql=mysql_query(" select id,clips,nameclip from clipvdo where id>0 order by sorter asc, id desc limit $start,$limit   ");
+  // Pinit Modify
+				   $sql=mysql_query(" select id,clips,nameclip from clipvdo where id>0 order by updated_at desc,sorter asc, id desc limit $start,$limit   ");
 
 
 while($r=mysql_fetch_array($sql))
